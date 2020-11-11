@@ -13,7 +13,7 @@ class TblBeca extends Migration
      */
     public function up()
     {
-        //
+        //MIGRACIONES
     }
 
     /**
