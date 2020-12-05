@@ -14,6 +14,8 @@ class TblSede extends Migration
     public function up()
     {
         //
+        $table->primary('idsede');
+        $table->string('nombre_sede');
     }
 
     /**

@@ -14,6 +14,8 @@ class TblCiudad extends Migration
     public function up()
     {
         //
+        $table->primary('idciudad');
+        $table->string('nombreciudad');
     }
 
     /**

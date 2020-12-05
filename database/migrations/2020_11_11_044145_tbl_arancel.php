@@ -14,6 +14,8 @@ class TblArancel extends Migration
     public function up()
     {
         //
+        $table->primary('id_arancel');
+        $table->integer('monto');
     }
 
     /**

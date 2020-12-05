@@ -14,6 +14,9 @@ class TblCarrera extends Migration
     public function up()
     {
         //
+        $table->primary('codcarr');
+        $table->string('nombrecarrera');
+       
     }
 
     /**

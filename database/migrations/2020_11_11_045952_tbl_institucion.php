@@ -14,6 +14,8 @@ class TblInstitucion extends Migration
     public function up()
     {
         //
+        $table->primary('id_institucion');
+        $table->string('nombreinstitucion');
     }
 
     /**

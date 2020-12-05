@@ -14,6 +14,8 @@ class TblCodarea extends Migration
     public function up()
     {
         //
+        $table->primary('codarea');
+    
     }
 
     /**

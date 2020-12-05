@@ -14,6 +14,8 @@ class TblRegion extends Migration
     public function up()
     {
         //
+        $table->primary('idregion');
+        $table->string('nombreregion');
     }
 
     /**

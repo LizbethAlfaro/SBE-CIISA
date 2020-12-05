@@ -14,6 +14,8 @@ class TblJornada extends Migration
     public function up()
     {
         //
+        $table->primary('idjornada');
+        $table->string('nombrejornada');
     }
 
     /**

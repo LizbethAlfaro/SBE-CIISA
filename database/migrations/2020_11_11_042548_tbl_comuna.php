@@ -13,7 +13,8 @@ class TblComuna extends Migration
      */
     public function up()
     {
-        //
+        $table->primary('idcomuna');
+        $table->string('nombrecomuna');
     }
 
     /**

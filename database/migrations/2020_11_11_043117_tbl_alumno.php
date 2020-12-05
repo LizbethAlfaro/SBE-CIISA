@@ -14,6 +14,17 @@ class TblAlumno extends Migration
     public function up()
     {
         //
+        $table->primary('cod_alum');
+        $table->string('rut');
+        $table->integer('fono');   
+        $table->date('fec_nac');
+        $table->string('direccion');
+        $table->string('celular');
+        $table->integer('ano_mat');
+        $table->integer('nem');
+
+
+
     }
 
     /**
